@@ -28,6 +28,7 @@ comp_code_table = [
     "1000111","1000000","1010101"]
 ]
 
+# For symbols
 symbol_code_table = [
    ["SP", "LCL", "ARG", "THIS", "THAT", "R0", "R1", "R2", 
    "R3", "R4", "R5", "R6", "R7", "R8", "R9", "R10", "R11", 
@@ -37,6 +38,7 @@ symbol_code_table = [
    "16384", "24576"]
 ]
 
+# Returns the corresponding number for the symbol
 def symbol_num_code(symb_str):
    ind = symbol_code_table[0].index(symb_str)
    return (symbol_code_table[1][ind])

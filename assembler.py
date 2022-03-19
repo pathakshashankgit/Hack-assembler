@@ -9,10 +9,10 @@ in_file_name = input()
 # Now in_file_name becomes just foo
 in_file_name = in_file_name[: len(in_file_name) - 4]
 
-# Preprocessing
+# Removing whitespaces and comments
 pre (in_file_name)
 
-# Removing symbols
+# Removing symbols and substituting approptiate numbers
 rem_symbols (in_file_name)
 
 # Doing the conversion
